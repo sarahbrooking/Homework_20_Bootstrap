@@ -1,11 +1,11 @@
 /* add your css styles here! */
-
-.navbar navbar-expand-sm bg-dark navbar-dark {
-    justify-content: space-between;
-}
-
-.navbar-brand {
-    padding-left: 150px;
-}
-#collapsibleNavbar {
-justify-content: center;}
+.card-body {
+    text-align: center;
+  }
+  .row-hero {
+      height: 100px;
+  }
+ .container-fluid hero {
+     background-image: src="../images/striped-background.svg";
+    height: 500px;     
+ }
