@@ -1,1 +1,11 @@
 /* add your css styles here! */
+
+.navbar navbar-expand-sm bg-dark navbar-dark {
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    padding-left: 150px;
+}
+#collapsibleNavbar {
+justify-content: center;}
