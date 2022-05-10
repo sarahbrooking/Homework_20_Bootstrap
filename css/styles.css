@@ -1,4 +1,8 @@
 /* add your css styles here! */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1EAE0;
+}
 
 #navigationbar {
     background-color: #064B72;
@@ -33,6 +37,9 @@
   .introContainer {
       background-color: #F1EAE0;
       padding-bottom: 100px;
+      padding-top: 50px;
+      padding-right: 175px;
+      padding-left: 50px;
   }
   .introText {
       width: 75%;
@@ -108,4 +115,69 @@
     right: -20px;
      align-self: center;
       z-index: 1;
+  }
+  #heroGrid2 { /* Grid CSS */
+    display: grid;
+    min-height: 25px;
+    grid-template-rows:1fr;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas: 
+    "leftColumn middleColumn rightColumn";
+   }
+   .card-body {
+     background-color: #064B72;
+   }
+   .card-title {
+     color:#f1EAE0;
+   }
+   .card-text {
+     color: #f1EAE0;
+   }
+   .btn-primary {
+     background-color: #f1EAE0;
+     color:#064B72;
+     border-radius: 0px;
+     border: 0px;
+   }
+   .jumbotron {
+     background-color: #f1EAE0;
+   }
+  /* Text css styles here! */
+  p1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px;
+    color: #064B72;
+    font-style: verdana;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px;
+    color: #064B72;
+    font-style: verdana;
+  }
+  
+  h3 {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0px 0px;
+    font-family: serif;
+    font-weight: bold;
+    color: #E93119;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px 0px;
+    font-family: serif;
+    color: #F1EAE0;
+  }
+  p2 {
+    font-size: 22px;
+    font-weight: 400;
+    font-style:oblique;
+    margin: 0px 0px;
+    font-family: serif;
+    color: #F1EAE0;
   }
