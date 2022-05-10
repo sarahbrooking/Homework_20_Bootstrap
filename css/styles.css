@@ -1,11 +1,57 @@
 /* add your css styles here! */
-.card-body {
-    text-align: center;
+body {
+  
+}
+#navigationbar {
+    background-color: #064B72;
+}
+.heroContainer {
+    min-height: 500px;
+    margin: 0;
+}
+.stripesContainer {
+    background-color: #064B72;
+}
+
+.card-text {
+    text-align: left;
   }
-  .row-hero {
-      height: 100px;
+  .card-title {
+    text-align: left;
   }
- .container-fluid hero {
-     background-image: src="../images/striped-background.svg";
-    height: 500px;     
- }
+  .aboutMe {
+      width: 100%;
+  }
+  .profilepicContainer {
+      background-color: #064B72;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      padding: 50px;
+      padding-top: 100px;
+      padding-bottom: 150px;
+  }
+  
+  .introContainer {
+      background-color: #F1EAE0;
+      padding-bottom: 100px;
+  }
+  .introText {
+      width: 75%;
+      margin: 0 auto;
+      padding-top: 100px;
+  }
+
+  .nav-item {
+      margin-right: 20px;
+  }
+  .navbar-nav {
+      margin-left: 50px;
+  }
+  .socialIcons {
+      width: 220px;
+      justify-content: space-around;
+      align-items: center;
+      display: flex;
+      margin: 0 auto;
+  }
