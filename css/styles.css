@@ -139,6 +139,10 @@ body {
      border-radius: 0px;
      border: 0px;
    }
+   .btn-primary:hover {
+     background-color:#ED6335;
+   }
+   
    .jumbotron {
      background-color: #f1EAE0;
    }
