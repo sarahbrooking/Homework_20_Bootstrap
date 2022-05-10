@@ -10,7 +10,12 @@
 .stripesContainer {
     background-color: #064B72;
 }
-
+.announcement {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    z-index: 150;
+}
 .card-text {
     text-align: left;
   }
@@ -52,4 +57,60 @@
       align-items: center;
       display: flex;
       margin: 0 auto;
+  }
+  #heroGrid { /* Grid CSS */
+    margin: 0px 5%;
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 95% 5%;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas: 
+    "leftColumnFaded middleColumnFaded rightColumnFaded"
+    "leftColumn middleColumn rightColumn";
+   }
+  /* Category Grid CSS */
+  #leftColumnFaded {
+    grid-area: leftColumnFaded;
+    background-image: url(../images/column-one-faded.svg);
+  }
+  #middleColumnFaded {
+    grid-area: middleColumnFaded;
+    background-image: url(../images/column2-faded.svg);
+  }
+  #rightColumnFaded {
+    grid-area: rightColumnFaded;
+    background-image: url(../images/column-3-faded.svg);
+  }
+  #leftColumn {
+    grid-area: leftColumn;
+    background-image: url(../images/left-column.svg);
+  }
+  #middleColumn {
+    grid-area: middleColumn;
+    background-image: url(../images/middle-column.svg);
+  }
+  #rightColumn {
+    grid-area: rightColumn;
+    background-image: url(../images/right-column.svg);
+  }
+  
+  
+  .heroGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+  }
+  #headline {
+    border-radius: 15px;
+    background-color: #F1EAE0;
+    padding: 30px;
+    padding-left: 100px;
+    position: absolute;
+    left: -20px; 
+    right: -20px;
+     align-self: center;
+      z-index: 1;
   }
