@@ -10,12 +10,7 @@
 .stripesContainer {
     background-color: #064B72;
 }
-.announcement {
-    background-color: white;
-    width: 300px;
-    height: 300px;
-    z-index: 150;
-}
+
 .card-text {
     text-align: left;
   }
@@ -59,7 +54,7 @@
       margin: 0 auto;
   }
   #heroGrid { /* Grid CSS */
-    margin: 0px 5%;
+    margin: 0px ;
     display: grid;
     min-height: 500px;
     height: 70vh;
